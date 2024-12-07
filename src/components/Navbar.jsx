@@ -28,10 +28,10 @@ const navigation =[
 const Navbar = () => {
     // const currentUser=false;
     const [isDropdownOpen, setIsDropdownOpen]=useState(false);
-    console.log(isDropdownOpen);
+    // console.log(isDropdownOpen);
 
     const cartItems=useSelector(state=>state.cart.cartItems);
-    console.log(cartItems);
+    // console.log(cartItems);
 
     const {currentUser, logout} = useAuth()
     

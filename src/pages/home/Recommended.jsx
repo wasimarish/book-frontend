@@ -24,7 +24,7 @@ const Recommened = () => {
     // }, []);
 
     const {data: books = []} = useFetchAllBooksQuery();
-    console.log(books);
+    // console.log(books);
 
 
    
